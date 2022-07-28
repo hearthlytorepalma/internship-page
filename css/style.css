@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center !important;
+}
+p{
+    font-size: 20px;
+}
+/*NavBar Code Start*/
+.nav-link{
+    color: orange !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+/*NavBar Code End*/
+
+/*Banner Code Start*/
+
+#bannerz{
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/slides2.jpg");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#bannerz button{
+    color: rgb(96, 69, 1);
+}
+/*Banner Code End*/
+
+
+/*Corporate Code Start*/
+#corporatez{
+    background-color: rgb(246, 246, 246);
+}
+#corporatez>h2 {
+    
+    padding: 50px 0 0 0;
+}
+/*Corporate Code End*/
+
+/*Abut Code Start*/
+#aboutz{
+    background-color: rgb(133, 96, 45);
+    color: white;
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.about-img{ 
+    width: 100%;
+    object-fit: contain;
+}
+
+.mx-auto{
+
+}
+/*Abut Code End*/
+
+/*Position Code Start*/
+.position-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wex{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    box-sizing:border-box;
+
+    justify-content: center;
+    transition: ease-in-out .15s;
+    color: red;
+    font-size: 40px;
+}
+.wex:active {
+    color: rgb(157, 24, 24);
+}
+/*Position Code End*/
+
+/*Components Code Start*/
+#componentz{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*Components Code End*/
+
+@media only screen and (max-width: 980px) {
+    .col-lg-6{
+        margin: 10px 0 10px !important;
+    }
+    .company-name{
+        font-size: 0px !important;
+    }
+    .nav-link{
+        color: rgb(255, 255, 255) !important;
+    }
+  }

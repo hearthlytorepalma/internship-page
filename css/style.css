@@ -9,6 +9,14 @@ body{
 p{
     font-size: 20px;
 }
+.section-margin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.align-title{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 /*NavBar Code Start*/
 
 .navbar{
@@ -64,8 +72,9 @@ p{
     background-color: rgb(133, 96, 45);
     color: white;
     text-align: justify;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 
 }
 #aboutz h2{
@@ -83,14 +92,7 @@ p{
 /*Abut Code End*/
 
 /*Position Code Start*/
-#positionz{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.position-text{
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
+
 .wex{
     background: none;
     border: none;
@@ -109,11 +111,6 @@ p{
 
 /*Components Code Start*/
 
-#componentz{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
-}
 .carousel{
    background-image: linear-gradient(320deg, rgb(233, 231, 231),rgb(254, 253, 253), rgb(238, 238, 238));
    box-shadow: 0 0 20px 0 rgba(11, 11, 11, 0.273);
@@ -127,17 +124,38 @@ p{
  object-fit: cover;
  object-position: center center;
 }
-
-
 /*Components Code End*/
 
-@media only screen and (max-width: 980px) {
+/*Why Code start*/
+#whyz{
+    background-color: rgb(133, 96, 45);
+    color: white;
+    text-align: center;
+}
+
+/*Why Code End*/
+
+@media only screen and (max-width: 991px) {
     p{
         font-size: 17px;
     }
  .navbar{
     height: 120px !important;
    }
+   .navbar-nav{
+    background-color: black;
+    opacity: 82%;
+    border: 1px solid orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+   }
+   .nav-link:hover{
+    align-items: center;
+    color: orange !important;
+   }
+  
+   
     /* 
    .navbar-nav{
         background-color: black;

@@ -27,6 +27,12 @@
     <script src="https://kit.fontawesome.com/86e1115cb2.js" crossorigin="anonymous"></script>    
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
+    <!--MY SCRIPT-->
+    <script type="text/javascript">
+    $(window).scroll(function(){
+      $('nav').toggleClass('scrolled', $(this).scrollTop()>100);
+    });
+    </script>
   </head>
 
   <body>
@@ -62,22 +68,27 @@
       </div>
     </nav>
   </header>
+
   <!--BANNER-->
   <section id="bannerz">
-    <div class="container banner-content" >
+    <div class="container d-flex justify-content-center banner-content" >
+      <div class="row col-xl-7">
       <h1>I APPAREL INTERNSHIP PROGRAM</h1>
-      <P class="text-justify">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</P>
+      <P>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</P>
       <button type="button" class="btn btn-warning btn-custom">SUBMIT YOUR CV NOW <i class="fa-solid fa-file-arrow-up" style="margin-left:5px"></i></button>
     </div>
+  
+  </div>
+  
   </section>
 
   <!--CORPORATE-->
   <section id="corporatez">
     <h2>CORPORATE WITH</h2>
   <div class="d-flex p-2 justify-content-center">
-  <div class="p-2"><img src="/images/ial logo.png" alt="ial logo" width="150px"></div>
-  <div class="p-2"><img src="/images/icare logo.png" alt="icare logo"  width="160px"></div>
-  <div class="p-2"><img src="/images/ik logo.png" alt="ik logo"  width="150px"></div>
+  <div class="col-lg-2 col-md-3 col-sm-3 col-4 p-1" ><img src="/images/ial logo.png" alt="ial logo" class="img-fluid"></div>
+  <div class="col-lg-2 col-md-3 col-sm-3 col-4 p-1" ><img src="/images/icare logo.png" alt="icare logo" class="img-fluid" ></div>
+  <div class="col-lg-2 col-md-3 col-sm-3 col-4 p-1" ><img src="/images/ik logo.png" alt="ik logo" class="img-fluid" ></div>
 </div>
   </section>
   
@@ -96,14 +107,16 @@
 
 <!--POSITION-->
 <section id="positionz">
-  <div class="container position-text ">
+  <div class="container d-flex justify-content-center">
+    <div class="col-xl-6">
     <h2>INTERN POSITIONS</h2>
     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
+</div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-sm-4 col-4 py-4 mx-4 ">
         <img src="/images/engineer.png" alt="job" class="img-fluid" width="250px" class="">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-warning btn-job" data-bs-toggle="modal" data-bs-target="#staticBackdropA">
@@ -128,7 +141,7 @@
   </div>
 </div>
 </div>
-      <div class="col-md-3 col-sm-5 mx-auto">
+      <div class="col-lg-2 col-sm-4 col-4 py-4 mx-4  ">
         <img src="/images/data-analysis.png" alt="job" class="img-fluid" width="250px">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-warning btn-job" data-bs-toggle="modal" data-bs-target="#staticBackdropB">
@@ -157,7 +170,7 @@
     </div>
   </div>
       </div>
-      <div class="col-md-3 col-sm-5 mx-auto ">
+      <div class="col-lg-2 col-sm-4 col-4 py-4 mx-4  ">
         <img src="/images/software-developer.png" alt="job" class="img-fluid" width="250px">
                <!-- Button trigger modal -->
                <button type="button" class="btn btn-warning btn-job" data-bs-toggle="modal" data-bs-target="#staticBackdropC">
@@ -180,7 +193,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-sm-5 mx-auto">
+      <div class="col-lg-2 col-sm-4 col-4 py-4 mx-4 ">
         <img src="/images/accounting (1).png" alt="job" class="img-fluid" width="250px">
          <!-- Button trigger modal -->
          <button type="button" class="btn btn-warning btn-job" data-bs-toggle="modal" data-bs-target="#staticBackdropD">
@@ -212,45 +225,68 @@
   <div class="container position-text">
     <h2>INTERNSHIP PROGRAM COMPONENTS</h2>
   </div>
+
   <div class="container">
-    <!--CAROUSEL START-->
-
-    <!--CAROUSEL END-->
-  </div>
-</section>
-</div>
-  </body>
-</html>
-
-
-
-  <!--Carousel Code Start
-
-  <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+    <div class="row d-flex justify-content-center m-4">
+    <!--CAROUSEL START-->    
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner" style="text-align: left;">
       <div class="carousel-item active" data-bs-interval="9000">
-        <img src="/images/carousel3.jpg" class="d-block w-100" alt="carousel images">
-        <div class="carousel-caption d-none d-md-block justify-content-center">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-5 mx-auto d-flex flex-column justify-content-end ">
+              <h2>Lorem Ipsum</h2>
+              <p class="text-justify no-wrap">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div class="col-lg-5 mx-auto d-flex justify-content-center"><img src="/images/carousel6.jpg" alt="about" class="carousel-img"></div>
+          </div>
         </div>
       </div>
       <div class="carousel-item"  data-bs-interval="9000">
-        <img src="/images/carousel4.jpg" class="d-block w-100" alt="carousel images">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-5 mx-auto d-flex flex-column justify-content-end ">
+              <h2>Lorem Ipsum</h2>
+              <p class=" text-justify no-wrap">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div class="col-lg-5 mx-auto d-flex justify-content-center"><img src="/images/carousel5.jpg" alt="about" class="carousel-img"></div>
+          </div>
         </div>
       </div>
       <div class="carousel-item"  data-bs-interval="9000">
-        <img src="/images/carousel5.jpg" class="d-block w-100" alt="carousel images">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-5 mx-auto d-flex flex-column justify-content-end ">
+              <h2>Lorem Ipsum</h2>
+              <p class=" text-justify no-wrap">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div class="col-lg-5 mx-auto d-flex justify-content-center"><img src="/images/carousel1.webp" alt="about" class="carousel-img"></div>
+          </div>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"></button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"></button>
   </div>
+    <!--CAROUSEL END-->
+  </div>
+  </div>
+  </div>
+</section>
 
-  Carousel Code End-
+<!---->
+<section>
+   <div class="container">
+    <div class="row">
+        <h2>List of Encouragements</h2>
+    </div>
+   </div>
+</section>
+</div>
+  </body>
+</html>

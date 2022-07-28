@@ -4,17 +4,23 @@
 }
 body{
     text-align: center !important;
+    background: rgb(249, 247, 247) !important;
 }
 p{
     font-size: 20px;
 }
 /*NavBar Code Start*/
+
+.navbar{
+    height: 95px !important;
+}
 .nav-link{
     color: orange !important;
     font-size: 15px !important;
     text-transform: uppercase !important;
     font-weight: bold !important;
 }
+
 /*NavBar Code End*/
 
 /*Banner Code Start*/
@@ -30,16 +36,22 @@ p{
     color: white;
     display: flex;
     align-items: center;
+    justify-items: center;
 }
-#bannerz button{
-    color: rgb(96, 69, 1);
-}
+
+.btn-custom{
+    color: rgb(96, 69, 1) !important;
+    width: 220px !important;
+    height: 50px;
+    font-size:13px !important;
+    margin: auto; 
+}   
 /*Banner Code End*/
 
 
 /*Corporate Code Start*/
 #corporatez{
-    background-color: rgb(246, 246, 246);
+     background-color: white;
 }
 #corporatez>h2 {
     
@@ -51,9 +63,13 @@ p{
 #aboutz{
     background-color: rgb(133, 96, 45);
     color: white;
-    text-align: right;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    text-align: justify;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+#aboutz h2{
+   text-align: right;
 
 }
 .about-img{ 
@@ -67,9 +83,13 @@ p{
 /*Abut Code End*/
 
 /*Position Code Start*/
+#positionz{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .position-text{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .wex{
     background: none;
@@ -88,15 +108,50 @@ p{
 /*Position Code End*/
 
 /*Components Code Start*/
+
 #componentz{
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
+.carousel{
+   background-image: linear-gradient(320deg, rgb(233, 231, 231),rgb(254, 253, 253), rgb(238, 238, 238));
+   box-shadow: 0 0 20px 0 rgba(11, 11, 11, 0.273);
+}
+#componentz p {
+    text-align: justify;
+}
+.carousel-img{
+ width: 400px;
+ height: 500px;
+ object-fit: cover;
+ object-position: center center;
+}
+
+
 /*Components Code End*/
 
 @media only screen and (max-width: 980px) {
+    p{
+        font-size: 17px;
+    }
+ .navbar{
+    height: 120px !important;
+   }
+    /* 
+   .navbar-nav{
+        background-color: black;
+        opacity: 80%;
+        width: 420px;
+        border-radius: 50px;
+   }*/
     .col-lg-6{
         margin: 10px 0 10px !important;
+        text-align: justify;
+   
+    }
+    .col-lg-6>h2{
+        text-align: center;
     }
     .company-name{
         font-size: 0px !important;
@@ -104,4 +159,5 @@ p{
     .nav-link{
         color: rgb(255, 255, 255) !important;
     }
+ 
   }

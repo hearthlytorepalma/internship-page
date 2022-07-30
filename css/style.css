@@ -112,7 +112,7 @@ p{
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;   
-    border: 2px solid red;
+
     box-sizing: content-box;
   }
      
@@ -327,6 +327,33 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
 }
 /*Timeline Code End*/
+
+
+/*Footer Code Start*/
+.footer-social{
+    background-color: orange;
+}
+
+.alignx>h6{
+    margin-bottom:0 !important;
+}
+
+.footer-social a {
+    color: rgb(43, 43, 43);
+    transition: ease-in-out .15s;
+}
+.footer-social a:hover {
+    color: rgb(255, 255, 255);
+    
+}
+.footer-copyright{
+ background-color: #2F2519;
+}
+.footer-copyright a{
+    color: orange;
+   
+   }
+/*Footer Code End*/
 
 
 

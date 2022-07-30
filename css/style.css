@@ -166,26 +166,26 @@ p{
   
   .cd-1{
     
-    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("/images/card1.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("../images/card1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
   }
   
   .cd-2{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("/images/card2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("../images/card2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;  
   }
   .cd-3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("/images/card3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("../images/card3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;  
   }
   .cd-4{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("/images/card5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("../images/card5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;  

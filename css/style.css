@@ -106,9 +106,10 @@ p{
 .flip-card {
     background-color: transparent;
     width: 250px !important;
-    height: 330px;
+    height: 340px;
     border: none;
     perspective: 1000px;
+    
   }
   
   .flip-card-inner {
@@ -137,7 +138,9 @@ p{
     backface-visibility: hidden;
     align-items: center;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.259);
+    
   }
+
 
   
   /* Style the front side (fallback if image is missing) */
@@ -153,6 +156,8 @@ p{
     color: white !important;
     transform: rotateY(180deg);
     line-height: 1;
+    text-overflow: ellipsis;
+  
   }
 
   .flip-card-back>a{
@@ -160,6 +165,11 @@ p{
     font-size: 15px;
     border-radius: 100px;
     transition: ease-in-out .15s;
+    white-space: normal !important;
+    border-bottom: 2px solid orange;
+  
+    
+   
     
   }
   .flip-card-back>a:hover{
@@ -370,7 +380,7 @@ h4{text-align:center;margin:30px 0;color:#444}
   list-style: none;
 }
 .column-edit p {
-  font-size: 13px;
+  font-size: 15px;
   color: white;
   display: flex;
 
@@ -385,6 +395,12 @@ h4{text-align:center;margin:30px 0;color:#444}
   font-weight: bold;
 }
 
+.alignx{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .footer-copyright{
  background-color: #2F2519;
@@ -392,7 +408,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 .footer-copyright a{
     color: orange;
     transition: ease-out .15s;
-   }
+}
 
 
 /* footer logo start*/
@@ -520,10 +536,6 @@ line-height: 0.5;
     }
     .nav-link{
         color: rgb(255, 255, 255) !important;
-    }
-    .flip-card-back>a{
-       font-size: 13px ;
-      }
- 
+    } 
   }
 

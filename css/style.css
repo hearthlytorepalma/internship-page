@@ -11,16 +11,15 @@ p{
 }
 .section-margin{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
 }
 .align-title{
     margin-top: 50px;
     margin-bottom: 100px;
 }
 /*NavBar Code Start*/
-
 .navbar{
-    height: 75px !important;
+  height: 75px !important;
 }
 .nav-link{
     color: orange !important;

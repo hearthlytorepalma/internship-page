@@ -257,6 +257,14 @@ p{
     color: rgb(157, 24, 24);
 }
 
+.modal-wow{
+  position: relative;
+  display: table;
+  overflow: auto;
+  min-width: 100%;
+
+}
+
 
 /*Position Code End*/
 

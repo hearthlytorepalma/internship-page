@@ -17,6 +17,11 @@ p{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+.embed-edit{
+  border-radius: 15px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.453);
+  
+}
 /*NavBar Code Start*/
 .navbar{
   height: 75px !important;
@@ -297,6 +302,7 @@ p{
 }
 
 .why-list li::before {
+
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: orange; /* Change the color */
   font-weight: bolder !important;
@@ -304,6 +310,7 @@ p{
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 }
 /*Why Code End*/
 
